@@ -7,7 +7,7 @@ Code for the ACL 2026 submission: "Phase Transitions in Affective Meaning Diverg
 ```
 config.py          # Paths, hyperparameters, constants
 utils/             # Core library (AMD, CSD indicators, repair proxies, stats)
-scripts/           # Experiment scripts (Exp 1-7, effect sizes)
+scripts/           # Experiment scripts (Exp 1-7, effect sizes, sensitivity)
 notebooks/         # Feature extraction and DA classifier training (Colab)
 data/              # Generated parquets (not tracked, see below)
 ```
@@ -32,6 +32,7 @@ python scripts/run_cga_cmv_analysis.py
 python scripts/run_exp7_replacement.py
 python scripts/run_repair_validation.py
 python scripts/compute_effect_sizes.py
+python scripts/run_window_sensitivity.py  # Window-size sensitivity (W=3..7)
 ```
 
 ## License
