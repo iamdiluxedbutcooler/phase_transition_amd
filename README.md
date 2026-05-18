@@ -2,7 +2,7 @@
 
 Code for the ACL SRW 2026 paper: "Phase Transitions in Affective Meaning Divergence: The Hidden Drift Before the Break".
 
-📄 [View the paper](https://github.com/iamdiluxedbutcooler/phase_transition_amd)
+📄 [View the paper](https://arxiv.org/abs/2605.09043)
 
 ## About
 
